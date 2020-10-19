@@ -45,7 +45,7 @@ export const Main = () => {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3} alignItems="center" justify="center">
+      <Grid container spacing={3} justify="center">
         <Input
           placeholder="Search"
           autoFocus

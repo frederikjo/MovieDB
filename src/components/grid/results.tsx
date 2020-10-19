@@ -10,7 +10,7 @@ export const Results = ({ results }: ResultsProps) => {
   return (
     <>
       {results.map((results: any) => (
-        <Grid item key={results.id} xs={12} sm={5} md={2}>
+        <Grid item key={results.id} xs={12} sm={5} md={4}>
           <Result key={results.id} result={results} />
         </Grid>
       ))}
